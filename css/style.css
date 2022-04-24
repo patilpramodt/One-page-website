@@ -1,0 +1,320 @@
+body,h1,h2,h3,h4,h5,h6,ul,a,p,button{
+	margin:0;
+	padding:0;
+	font-family: 'Titillium Web', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+*{
+	box-sizing:border-box;
+}
+.team h1,.client-review h1{
+	text-transform: uppercase;
+}
+.container{
+	width: 1140px;
+}
+.bg-violet{
+	background-color: #87509c;
+	padding: 55px 0 145px;
+}
+.menu a{
+	color: #efe8f2;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 40px;
+	padding: 5px 10px ;
+	border-radius: 5px;
+}
+.menu .active{
+	background-color: rgb(0, 0, 0,0.2);
+}
+.menu a:hover{
+	background-color: rgb(0, 0, 0,0.2);
+}
+#section-home p{
+	font-size: 42.16px;
+	font-family: 700;
+	color:#fff;
+	margin: 135px 0 60px ;
+}
+#section-home button{
+	padding: 20px 75px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #eb7d4b;
+	border: none;
+	box-shadow: 0 5px 0 #c86a40;
+	border-radius: 5px;
+}
+.bg-green{
+	background-color: #17c2a4;
+	padding: 115px 0 120px;
+}
+#section-services p{
+	margin: 20px 0 75px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+#section-services h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+.line{
+	height: 5px;
+	width: 90px;
+	background-color:rgba(0, 0, 0,0.2);
+	border: none;
+}
+.services> div{
+	width: 260px;
+	text-align: center;
+}
+.services h1{
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 55px;
+}
+.ico-services{
+	height: 140px;
+}
+.services p{
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 25px;
+}
+.bg-white{
+	padding: 110px 0 120px;
+}
+#section-team >p{
+	font-size: 18.58px;
+	font-weight: 400;
+	color: #3c4761;
+	margin: 20px 0 75px;
+}
+#section-team >h1{
+	font-size: 42.29px;
+	font-weight: 700;
+	color: #3c4761;
+}
+.team> div{
+	width: 260px;
+	text-align: center;
+}
+.member-photo{
+	padding: 100px;
+	border-radius: 100%;
+	background-color: #878787;
+}
+.sn-sites i{
+	color: #fff;
+	background-color: #bdd1df;
+	padding: 8px;
+	border-radius: 100%;
+}
+.sn-sites i:hover{
+	background-color: #273a71;
+}
+.sn-sites .ico-fb{
+	padding: 8px 11px;
+}
+.team h1{
+	font-size: 24px;
+	font-weight: 700;
+	color: #27283d;
+	margin: 40px 0 10px;
+}
+.team h2{
+	font-size: 16px;
+	font-weight: 400;
+	color: #30bae7;
+}
+.team p{
+	font-size: 16px;
+	font-weight: 300;
+	color: #3c4761;
+	margin: 25px 0 30px;
+}
+.bg-brown{
+	background-color: #ffdd99;
+	padding: 105px 0 100px;
+}
+#section-portfolio h1{
+	font-size:40px ;
+	color: #393939;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+#section-portfolio p{
+	font-size:18px ;
+	color: #393939;
+	font-weight: 400;
+	margin: 20px 0 45px;
+}
+.portfolio-button a{
+	text-decoration: none;
+	color: #393939;
+	font-size: 18px;
+}
+.portfolio-button button{
+	height: 40px;
+	width: 85px;
+	border: none;
+	background-color: #ebc985;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.portfolio-button .active{
+	background-color: #fff;
+	margin-left: 0;
+}
+.portfolio-button button:hover{
+	background-color: #fff;
+}
+.bg-brown h3{
+	font-size:18px ;
+	color: #393939;
+	font-weight: 400;
+}
+.bg-brown img{
+	margin: 60px 0 30px;
+}
+.project-button{
+	margin-top: 80px;
+	padding: 20px 70px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #17c2a4;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 5px 0 #14a58c;
+}
+.bg-cranberry{
+	background-color: #d74680;
+	padding: 105px 0 100px;
+}
+#section-testimonial p{
+	margin: 20px 0 65px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+#section-testimonial h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+.client-image{
+	height: 95px;
+	width: 95px;
+	background-color: #787878;
+	border-radius: 100%;
+	margin:0 45px 0 40px;
+}
+.client-review{
+	width: 380px;
+}
+.client-review p{
+	font-size: 21px;
+	font-weight: 300;
+	color: #fff;
+}
+.client-review h1{
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 25px;
+}
+.client-review h2{
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffdd99;
+}
+.comment-box{
+	margin-top: 150px;
+}
+.bg-blue{
+	background-color: #3c5499;
+	padding: 105px 0 100px;
+}
+#section-contact p{
+	margin: 20px 0 65px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+#section-contact h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+.input-detail input{
+	width: 410px;
+	height: 60px;
+	background-color: #273a71;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+}
+input::placeholder{
+	color: #fff;
+	padding-left: 25px;
+	font-weight: 400;
+}
+textarea{
+	margin-top: 25px;
+	background-color: #273a71;
+	font-size: 18px;
+	width: 850px;
+	height: 200px;
+	color: #fff;
+	padding: 25px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+}
+.massage-button{
+	margin-top: 60px;
+}
+.massage-button{
+	width: 290px;
+	height: 70px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #30bae7;
+	border: none;
+	box-shadow: 0 5px 0 #299ec5;
+	border-radius: 5px;
+}
+.footer{
+	background-color: #344b8e;
+	padding: 40px 0;
+	font-weight: 600;
+}
+.social-sites a{
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 50px;
+}
+.social-sites a:hover{
+	color: #30bae7;;
+}
+.scroll-to-top{
+	color: black;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+.scroll-to-top:hover{
+	color: #fff;
+	background-color: #000;
+	border-radius: 100%;
+}
