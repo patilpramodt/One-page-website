@@ -27,6 +27,7 @@ html {
 	margin-left: 40px;
 	padding: 5px 10px ;
 	border-radius: 5px;
+	transition: all 1s;
 }
 .menu .active{
 	background-color: rgb(0, 0, 0,0.2);
@@ -117,6 +118,7 @@ html {
 	background-color: #bdd1df;
 	padding: 8px;
 	border-radius: 100%;
+	transition: all 2s;
 }
 .sn-sites i:hover{
 	background-color: #273a71;
@@ -303,6 +305,7 @@ textarea{
 	color: #fff;
 	text-decoration: none;
 	margin-right: 50px;
+	transition: all 0.5s linear;
 }
 .social-sites a:hover{
 	color: #30bae7;;
