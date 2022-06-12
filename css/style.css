@@ -122,6 +122,7 @@ html {
 }
 .sn-sites i:hover{
 	background-color: #273a71;
+	margin-bottom: 15px;
 }
 .sn-sites .ico-fb{
 	padding: 8px 11px;
